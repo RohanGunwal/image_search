@@ -1,0 +1,22 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchInput input {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.searchInput .btn {
+  padding: 10px 30px;
+}

@@ -1,0 +1,43 @@
+.imageLists .images {
+  margin-left: 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200vh;
+  width: 1300px;
+}
+
+.imageLists .images .imageList {
+  width: 360px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.imageLists .images .image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  transition: all 0.12s ease-in-out;
+}
+
+.imageLists .images .image:hover {
+  filter: blur(2px);
+}
+
+.imageLists .images .tab {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imageLists .images .tab .hover {
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+}
