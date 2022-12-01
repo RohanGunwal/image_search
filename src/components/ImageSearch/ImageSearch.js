@@ -34,7 +34,7 @@ export default function ImageSearch() {
     if (bookmark.has(e.id)) {
       bookmark.delete(e.id);
     } else {
-      bookmark.set(e.id, e);
+      setBookmark(new Map(bookmark.set(e.id, e)));
     }
   };
 
